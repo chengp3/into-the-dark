@@ -1,0 +1,181 @@
+@import './tachyons.min.css';
+
+.control-panel .border {
+	fill: none;
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.display-panel .border {
+	fill: none;
+	stroke: black;
+	stroke-width: 1px;
+}
+
+table {
+	fill: none;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+}
+
+table td {
+	min-width: 77px;
+}
+
+.slider text,
+.axis text {
+	font-size: 12px;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+  
+#line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+#nav {
+	font-family: Arial;
+	border-style: solid;
+	border-width: 1px;
+	background-color: AliceBlue;
+	text-align: center;
+	width: 830px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 50px;
+	margin-top: 40px;
+}
+
+.nav-link {
+	margin-left: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a.active-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#sim {
+	text-align: left;
+	margin-top: 50px;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+
+#title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 800px;
+}
+
+#fishdiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fish {
+	position: relative;
+	top: 0px;
+	right: 20px;
+}
+
+#display {
+	padding-left: 0px;
+}
+
+#controls {
+	padding: 0px;
+}
+
+#modal {
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 200px;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: 'white'; /* Fallback color */
+  }
+  
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 600px;
+	height: 350px;
+	box-sizing: border-box; /* So that padding does not add to the size */
+}
+  
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  #title-text {
+	height: 400px;  /* Set a specific height */
+	display: flex;  /* Use flexbox to align items */
+	flex-direction: column;  /* Align items vertically */
+	justify-content: center;  /* Center items vertically */
+  }
+  
+  #title-text .top {
+	position: relative;  /* Remove from normal document flow */
+	top: 0px;
+	height: 50px;
+	width: 250px;
+	left: 50px;
+  }
+  
+  #title-text .above-center {
+	position: relative;  /* Remove from normal document flow */
+	top: 30px;  /* Position above center */
+	left: 50px;
+  }
+  
+  #title-text .below-center {
+	position: relative;  /* Remove from normal document flow */
+	top: 15px;  /* Position below center */
+	left: 50px;
+	color: gray;
+  }
+  
+  #title-text .bottom {
+	position: relative;  /* Remove from normal document flow */
+	top: 50px;  /* Position at bottom of .container */
+	left: 50px;
+  }
