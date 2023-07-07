@@ -5,6 +5,7 @@ Click [here](https://into-the-dark-gamma.vercel.app/) to check out the full depl
 
 Changes: 
 - Rewrote Agents, Hideouts, and Sims as classes for easier extensibility for separate units
+- Refactored simulation parameters/logic files
 - Added responsive navigation, back/forward buttons
 - Removed wiggle and added Hideout velocity variation
 - Customized slider logic and behaviors for all units, changed slider modules from d3-widgets to d3-simple-slider
