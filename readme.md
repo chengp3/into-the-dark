@@ -1,5 +1,5 @@
-## Into the Dark!
-# An educational simulation of fish written in javascript
+# Into the Dark!
+### An educational simulation of fish written in javascript
 
 Click [here](https://into-the-dark-gamma.vercel.app/) to check out the full deployment.
 
