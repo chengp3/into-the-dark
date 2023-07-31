@@ -22,6 +22,11 @@ const dist = (a,b) => {
 	return Math.sqrt(dx*dx + dy*dy);
 }
 
+const updateAvg = (old_avg, new_val, ticks) => {
+    const avg = (old_avg * (ticks - 1) + new_val) / ticks;
+    return avg;
+}
+
 const tadpole = (scale) => {
 	const M = 30;
 	const line = d3.line()
@@ -39,4 +44,4 @@ const tadpole = (scale) => {
 }	
 
 
-export {tadpole,dist,toArray,add_id_label,add_widget,get_variables,get_booleans,get_choices,deg2rad,rad2deg}
+export {tadpole,dist,toArray,add_id_label,add_widget,get_variables,get_booleans,get_choices,updateAvg,deg2rad,rad2deg}

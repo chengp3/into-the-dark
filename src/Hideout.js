@@ -13,9 +13,6 @@ export default class Agent {
     set_new_pos() {
         let dx =  this.params.dt * this.vx; // dx = displacement x
 		let dy =  this.params.dt * this.vy; // dy = displacement y
-		
-		dx *= (this.id + 1) / 3;
-		dy *= (this.id + 1) / 3;
 
 		let x_new= (this.x + dx); // x_new = new x position
 		let y_new= (this.y + dy); 

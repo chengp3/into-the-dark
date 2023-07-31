@@ -16,12 +16,12 @@ export default function setup_modal() {
       proportion of the time fish spent in the light versus the dark. \
       Every fraction of a second, the proportion of fish in the \
       dark/light is calculated. The average of this proportion over \
-      the last several seconds will show up as a horizontal gray \
+      the last 30 seconds will show up as a horizontal gray \
       line in the plot.</p>
       <p>Use this curve to guide your exploration of Relative Speed, \
       Alignment, and Attraction Radius. </p>
-      <p>Run as many trials as you like and try to maximize Proportion \
-      in the Dark! <b>Stay alive!</b></p>
+      <p>Run as many trials as you like and try to maximize Percentage \
+      in the Dark over 30 seconds! <b>Stay alive!</b></p>
     </div>`
 
     const span = document.getElementsByClassName("close")[0];

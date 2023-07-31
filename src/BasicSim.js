@@ -35,7 +35,8 @@ export default class BasicSim {
 		this.hideouts = [];
 		this.initialize(this.params);
 
-		this.timer = {}
+		this.timer = {};
+		this.playing = false;
 
 		setup_go(this);
     }
