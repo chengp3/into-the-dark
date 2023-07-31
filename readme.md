@@ -15,6 +15,7 @@ Changes:
 - Added live updating chart "% fish hidden" for unit 5
 - Rewrote unit 5 trials to last 30 seconds, with live refreshing scorekeeping chart tracking trials
 - Rewrote unit 5 reset button
+- Wrote new play/reset button from scratch (old module was missing functionality)
 - Added lesson text for all units
 - Added responsive mobile support
 
