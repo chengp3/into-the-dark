@@ -12,8 +12,10 @@ Changes:
 - Added individual position and velocity display for unit 1
 - Added pretty fish colors for unit 1
 - Added axes labels for unit 1
-- Added live updating chart, scorekeeping/gameification for unit 5
+- Added live updating chart "% fish hidden" for unit 5
+- Rewrote unit 5 trials to last 30 seconds, with live refreshing scorekeeping chart tracking trials
 - Rewrote unit 5 reset button
 - Added lesson text for all units
+- Added responsive mobile support
 
 Big ups to Dirk Brockmann for the original [repo](https://github.com/galacticpolymath/collective_intelligence) and [sim](https://www.complexity-explorables.org/explorables/into-the-dark/)
