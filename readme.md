@@ -10,7 +10,7 @@ Changes:
 - Removed wiggle and added Hideout velocity variation
 - Customized slider logic and behaviors for all units, changed slider modules from d3-widgets to d3-simple-slider
 - Added individual position and velocity display for unit 1
-- Added pretty fish colors for unit 1
+- Customized fish colors for unit 1
 - Added axes labels for unit 1
 - Added live updating chart "% fish hidden" for unit 5
 - Rewrote unit 5 trials to last 30 seconds, with live refreshing scorekeeping chart tracking trials
